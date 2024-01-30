@@ -33,7 +33,10 @@
     display: flex;
     justify-content: space-between;
 }
-
+img {
+  width: 100%;
+  height: 1005;
+}
 /*----------Navbar---------*/
 
 .navbar {
@@ -53,7 +56,7 @@
   }
   
   .navbar nav a:hover {
-    color: #ccb725;
+    color: #ccb725 !important;
   }
   
   .navbar nav {
@@ -87,3 +90,73 @@
     font-size: 25px;
     display: none;
   }
+
+  @media only screen and (max-width:768px) {
+    .navbar nav ul {
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      background: linear-gradient(to bottom, #5b0172, #6f028b);
+      overflow: hidden;
+      transition: max-height 0.5s;
+      text-align: center;
+    }
+    .navbar nav ul li {
+      display: block;
+      margin: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .navbar nav ul li a {
+      color: white;
+    }
+
+    .navbar span {
+      color: white;
+      display: block;
+      cursor: pointer;
+      border: 2px solid white;
+      padding: 5px;
+    }
+    }
+
+    /*----------navbar--------*/
+/*----------home--------*/
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.left, .right {
+  width: 50%;
+} 
+
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: #e2cb2b;
+  padding: 13px 50px;
+  transition: 0.5s;
+  color: white;
+}
+
+.btn:hover {
+  background: #bead3a;
+}
+.home {
+  background: linear-gradient(to bottom, #5b0172 #6f028b);
+}
+.home .left {
+  margin-top: 10%;
+}
