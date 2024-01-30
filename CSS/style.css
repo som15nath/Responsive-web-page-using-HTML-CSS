@@ -160,3 +160,56 @@ h1 {
 .home .left {
   margin-top: 10%;
 }
+/*----------home--------*/
+/*----------wrapper--------*/
+
+.top {
+  margin-top: 5%;
+}
+
+.ltop {
+  margin-top: 10%;
+}
+
+.mtop {
+  margin-top: 20%;
+}
+
+/*----------wrapper--------*/
+/*----------service--------*/
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.btn1 {
+  background: none;
+  color: #bead3a;
+}
+.btn1 i {
+  margin-left: 10px;
+}
+.btn1:hover {
+  background: none;
+  color: white;
+}
+.center {
+  text-align: center;
+}
+
+.padding {
+  padding: 30px;
+}
+
+.service img {
+  height: auto;
+  width: auto;
+}
+
+.service .box {
+  background: linear-gradient(to bottom, #5b0172, #6f028b);
+  padding: 30px;
+  color: white;
+  border-radius: 10px;
+}
