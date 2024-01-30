@@ -213,3 +213,50 @@ h1 {
   color: white;
   border-radius: 10px;
 }
+
+/*----------service--------*/
+/*----------wraper2--------*/
+
+.wrapper2 .right, .wrapper2 .left {
+  padding: 50px;
+}
+
+.wrapper2 .left {
+  margin-top: 10%;
+}
+
+/*----------wraper2--------*/
+/*----------service2--------*/
+.service2 .items {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/*----------service2--------*/
+/*----------contact--------*/
+
+.contact {
+  padding: 50px;
+  color: white;
+  background: linear-gradient(to bottom, #5b0172, #6f028b);
+
+}
+
+.contact form {
+  margin-right: 50px;
+}
+
+.contact input, textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.contact iframe {
+  border-radius: 5px;
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+}
